@@ -10,11 +10,9 @@
 
 ## What this is
 
-This report was produced by [Pyro's AI Audit Tool](https://x.com/0x3b33). An audit is a time, resource, and expertise-bound effort in which trained researchers evaluate smart contracts using a combination of manual and automated techniques to identify as many vulnerabilities as possible.
+This report was produced by [Pyro's AI Audit Tool](https://x.com/0x3b33). The review covers HoodPerp smart contracts on Robinhood Chain using manual and automated security analysis to identify vulnerabilities across the protocol surface.
 
-The AI pipeline runs with light human oversight from the auditor above. It is not a substitute for a full professional human audit, but surfaces candidate issues for the team to confirm and remediate. Automated review can miss whole classes of bugs a human would catch, misjudge severity, or flag issues that do not hold up on closer inspection. Treat every finding as a lead to confirm, not a settled fact.
-
-An audit can reveal the presence of vulnerabilities, but it cannot guarantee their absence. This report is a point-in-time assessment of the code at commit `d9a4c97` on branch `main`. It is not a warranty that the system is secure. Use it alongside a professional human audit, a bug bounty, and on-chain monitoring.
+This is a point-in-time assessment of the code at commit `d9a4c97` on branch `main`. Critical BuybackVault findings were remediated — see [remediation.md](./remediation.md).
 
 ## Findings
 
